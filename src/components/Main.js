@@ -3,10 +3,14 @@ import { useState } from "react";
 
 const Main = () => {
   const [counter, setCounter] = useState(0);
+  const [addcounter, setaddcounter] = useState(0);
 
   return (
     <div className="main">
-      <h1 className="titlemain"> Counter </h1>
+      <div className="addcounter">
+        {" "}
+        <button onClick={() => {}}> Add Counter </button>{" "}
+      </div>
       <div className="all">
         <div>
           {/* condition moins */}

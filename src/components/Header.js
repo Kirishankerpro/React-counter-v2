@@ -6,7 +6,7 @@ const Header = () => {
       <div className="header">
         <h1>
           <i class="fa-solid fa-calculator"></i>
-          <span className="title"> React Counter </span>
+          <span className="title"> React Counter V2 </span>
         </h1>
       </div>
     </div>

@@ -9,10 +9,25 @@
   height: 100%;
 }
 
-.titlemain {
-  text-align: center;
-  font-weight: 400;
+.addcounter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.addcounter > button {
+  font-size: 1rem;
+  color: white;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: #5c47d2 solid 2px;
+  background-color: #5c47d2;
+  cursor: pointer;
+}
+
+.addcounter > button:hover {
   color: #5c47d2;
+  background-color: white;
 }
 
 .all {
