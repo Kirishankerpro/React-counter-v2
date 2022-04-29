@@ -7,11 +7,8 @@ const Main = () => {
 
   return (
     <div className="main">
-      {tab.map((elements5) => {
-        console.log(elements5);
-      })}
       <div className="addcounter">
-        {tab.length < 2 ? (
+        {tab.length <= 2 ? (
           <button
             onClick={() => {
               const newTab = [...tab];
@@ -26,14 +23,18 @@ const Main = () => {
             Add Counter
           </button>
         ) : (
-          <button className="buttonout"></button>
+          <button className="buttonout">test</button>
         )}
       </div>
 
       <div className="addcounterelements">
         <Counter />
         {tab.map((elements, index) => {
-          return <div key={index}>{elements <= 3 && <Counter />}</div>;
+          return (
+            <div key={index}>
+              <Counter />
+            </div>
+          );
         })}
       </div>
     </div>
