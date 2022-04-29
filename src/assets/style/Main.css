@@ -104,3 +104,19 @@
 .none {
   display: none;
 }
+
+.addcounterelements {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonout {
+  font-size: 1rem;
+  color: white !important;
+  height: 3rem;
+  width: 8rem;
+  border-radius: 5px;
+  border: white solid 2px !important;
+  background-color: white !important;
+  cursor: unset !important;
+}
